@@ -129,6 +129,13 @@
   <ItemGroup>
     <ClCompile Include="LabB_6.1(6)_Marozau.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="bag.hpp" />
+    <ClInclude Include="car.hpp" />
+    <ClInclude Include="motorcycle.hpp" />
+    <ClInclude Include="object.hpp" />
+    <ClInclude Include="person.hpp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
