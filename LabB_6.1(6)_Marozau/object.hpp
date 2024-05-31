@@ -17,14 +17,14 @@ protected:
     int ymax = 0;
 
 public:
-    Object(int& xmin, int&xmax, int&ymin, int&ymax) {
+    Object(int xmin, int xmax, int ymin, int ymax) {
         this->xmin = xmin;
         this->xmax = xmax;
         this->ymin = ymin;
         this->ymax = ymax;
     }
     virtual const void Print() {
-        cout << "Object" << endl;
+        cout<<endl << "Object" << endl;
         cout << "xmin : " << this->xmin << " , xmax : " << this->xmax << endl;
         cout << "ymin : " << this->ymin << " , ymax : " << this->ymax << endl;
     }
